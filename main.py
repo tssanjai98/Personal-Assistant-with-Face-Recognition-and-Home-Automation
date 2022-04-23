@@ -18,6 +18,8 @@ import requests
 from playsound import playsound
 from time import ctime
 
+
+version = 1.1
 apikey = '4KXRH3-YK694P27XJ'
 
 # If modifying these scopes, delete the file token.pickle.
