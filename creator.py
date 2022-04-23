@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import time
+import os
 
 faceDetect = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
 cam = cv2.VideoCapture(0)
@@ -24,3 +25,5 @@ while(True):
         break
 cam.release()
 cv2.destroyAllWindows()
+
+
