@@ -20,7 +20,7 @@ from time import ctime
 
 
 
-apikey = '4KXRH3-YK694P27XJ'
+apikey = 'XXXXX'
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
