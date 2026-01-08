@@ -5,7 +5,7 @@ import time
 faceDetect = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
 cam = cv2.VideoCapture(0)
 
-id = input("Enter user id:")
+id = input("Enter user_id:")
 samplenum = 0
 while(True):
     ret,img = cam.read()
